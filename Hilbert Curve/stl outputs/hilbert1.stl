@@ -1,0 +1,86 @@
+solid Object01
+  facet
+    outer loop
+      vertex 2.5 2.55 0 
+      vertex 5.0 2.5 0 
+      vertex 7.5 2.55 0 
+    endloop
+  endfacet
+  facet
+    outer loop
+      vertex 7.5 2.55 0 
+      vertex 5.0 2.5 0 
+      vertex 7.5 2.45 0 
+    endloop
+  endfacet
+  facet
+    outer loop
+      vertex 7.5 2.45 0 
+      vertex 5.0 2.5 0 
+      vertex 2.5 2.45 0 
+    endloop
+  endfacet
+  facet
+    outer loop
+      vertex 2.5 2.45 0 
+      vertex 5.0 2.5 0 
+      vertex 2.5 2.55 0 
+    endloop
+  endfacet
+  facet
+    outer loop
+      vertex 7.45 7.5 0 
+      vertex 7.5 5.0 0 
+      vertex 7.55 7.5 0 
+    endloop
+  endfacet
+  facet
+    outer loop
+      vertex 7.55 7.5 0 
+      vertex 7.5 5.0 0 
+      vertex 7.55 2.5 0 
+    endloop
+  endfacet
+  facet
+    outer loop
+      vertex 7.55 2.5 0 
+      vertex 7.5 5.0 0 
+      vertex 7.45 2.5 0 
+    endloop
+  endfacet
+  facet
+    outer loop
+      vertex 7.45 2.5 0 
+      vertex 7.5 5.0 0 
+      vertex 7.45 7.5 0 
+    endloop
+  endfacet
+  facet
+    outer loop
+      vertex 2.5 7.55 0 
+      vertex 5.0 7.5 0 
+      vertex 7.5 7.55 0 
+    endloop
+  endfacet
+  facet
+    outer loop
+      vertex 7.5 7.55 0 
+      vertex 5.0 7.5 0 
+      vertex 7.5 7.45 0 
+    endloop
+  endfacet
+  facet
+    outer loop
+      vertex 7.5 7.45 0 
+      vertex 5.0 7.5 0 
+      vertex 2.5 7.45 0 
+    endloop
+  endfacet
+  facet
+    outer loop
+      vertex 2.5 7.45 0 
+      vertex 5.0 7.5 0 
+      vertex 2.5 7.55 0 
+    endloop
+  endfacet
+endsolid Object01

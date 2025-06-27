@@ -1,6 +1,6 @@
 # Functional Haskell Simulations
 
-This repository contains Haskell projects, showcasing the use of functional programming in solving computational problems related to geometry, social simulation and graph theory.
+This repository contains Haskell projects, showcasing the use of functional programming in solving computational problems related to geometry, social simulation, cellular automata, and graph theory.
 
 ---
 
@@ -37,11 +37,24 @@ A command-line graph utility that performs **Breadth-First Search** (BFS) betwee
 
 ---
 
+## 4️⃣ Conway’s Game of Life – Oscillator Simulation
+
+A visual and animated simulation of Conway’s Game of Life using five classical **oscillator patterns**: Blinker, Toad, Beacon, Pulsar, and Pentadecathlon. Each pattern evolves over generations based on Conway’s rules.
+
+### Features:
+- Functional implementation of the Game of Life rules.
+- Visual output using the JuicyPixels library (`.png` format).
+- Animated `.gif` output generated for each pattern.
+- Demonstrates periodic behavior of oscillators with clean, centralized rendering.
+
+> All output images and animations are included in the project folders under `frames*/`.
+
+---
+
 ## 🧩 Requirements
 
 - [GHC (Glasgow Haskell Compiler)](https://www.haskell.org/ghc/)
 - Cabal or Stack for dependency management (not required for these projects, but useful for expansion)
-- No external Haskell packages used beyond base and standard libraries
 
 ---
 
@@ -49,3 +62,6 @@ A command-line graph utility that performs **Breadth-First Search** (BFS) betwee
 
 Each project contains a `main.hs` or equivalent file. You can compile and run each independently. Example:
 
+```bash
+ghc main.hs
+./main
